@@ -1,0 +1,93 @@
+[0.000][INFO]:      ChromeDriver 26.0.1383.0 /Users/zhentao.li/Documents/myown/selenium-grid-2-junit/src/scripts/lib/chromedriver
+[0.506][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "platform": "MAC",
+   "version": ""
+}
+
+[0.507][INFO]:      Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --use-mock-keychain --ignore-certificate-errors about:blank
+[15.069][INFO]:     Connected to Chrome successfully. Version: 27.0.1453.93
+[15.081][FINE]:     Command received (/session/a23681f549928517c0087d75f2768451)
+[15.081][FINE]:     Command finished (/session/a23681f549928517c0087d75f2768451) with response {
+   "sessionId": "a23681f549928517c0087d75f2768451",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "mac",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "27.0.1453.93",
+      "webStorageEnabled": true
+   }
+}
+
+[15.440][FINE]:     Command received (/session/a23681f549928517c0087d75f2768451/url) with params {
+   "url": "http://www.openx.com"
+}
+
+[15.440][FINER]:    Waiting for all views to stop loading...
+[15.440][FINER]:    Done waiting for all views to stop loading
+[19.689][FINER]:    Waiting for all views to stop loading...
+[19.690][FINER]:    Done waiting for all views to stop loading
+[19.690][FINE]:     Command finished (/session/a23681f549928517c0087d75f2768451/url) with response {
+   "sessionId": "a23681f549928517c0087d75f2768451",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[19.735][FINE]:     Command received (/session/a23681f549928517c0087d75f2768451/element) with params {
+   "using": "link text",
+   "value": "Support"
+}
+
+[19.735][FINER]:    Waiting for all views to stop loading...
+[19.737][FINER]:    Done waiting for all views to stop loading
+[19.792][FINER]:    Waiting for all views to stop loading...
+[19.793][FINER]:    Done waiting for all views to stop loading
+[19.793][FINE]:     Command finished (/session/a23681f549928517c0087d75f2768451/element) with response {
+   "sessionId": "a23681f549928517c0087d75f2768451",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1370022079562"
+   }
+}
+
+[19.893][FINE]:     Command received (/session/a23681f549928517c0087d75f2768451/element/:wdc:1370022079562/click) with params {
+   "id": ":wdc:1370022079562"
+}
+
+[19.893][FINER]:    Waiting for all views to stop loading...
+[19.894][FINER]:    Done waiting for all views to stop loading
+[19.983][FINER]:    Waiting for all views to stop loading...
+[19.984][FINER]:    Done waiting for all views to stop loading
+[19.984][FINE]:     Command finished (/session/a23681f549928517c0087d75f2768451/element/:wdc:1370022079562/click) with response {
+   "sessionId": "a23681f549928517c0087d75f2768451",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[19.999][FINE]:     Command received (/session/a23681f549928517c0087d75f2768451/window)
+[20.003][FINE]:     Command finished (/session/a23681f549928517c0087d75f2768451/window) with response {
+   "sessionId": "a23681f549928517c0087d75f2768451",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[20.032][FINE]:     Command received (/session/a23681f549928517c0087d75f2768451)
+[20.396][INFO]:     Chrome shutdown

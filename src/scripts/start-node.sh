@@ -1,0 +1,1 @@
+java -Dwebdriver.chrome.driver=lib/chromedriver  -jar lib/selenium-server-standalone-2.32.0.jar -role node -nodeConfig conf/nodeConfig.json
